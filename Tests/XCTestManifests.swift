@@ -1,6 +1,7 @@
 import XCTest
 
 #if os(Linux)
+// swiftlint:disable identifier_name
 public func __allTests() -> [XCTestCaseEntry] {
     return [
         testCase(ID3FrameWithStringContentCreatorTest.allTests),
